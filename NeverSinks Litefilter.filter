@@ -260,6 +260,13 @@ SetBorderColor 0 0 200
 SetFontSize 35
 
 #--------------------------
+# Items with Sockets
+#--------------------------
+Show
+Sockets "1" "2" "3"
+SetBorderColor 0 0 255 255
+PlayAlertSound 11 300
+#--------------------------
 # OPTIONAL RULES
 #--------------------------
 # TO ENABLE RULES, REMOVE THE # AT THE START OF THE LINE
