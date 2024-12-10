@@ -264,7 +264,9 @@ SetFontSize 35
 #--------------------------
 Show
 Sockets "1" "2" "3"
+Rarity Normal
 SetBorderColor 0 0 255 255
+SetFontSize 35
 PlayAlertSound 11 300
 #--------------------------
 # OPTIONAL RULES
