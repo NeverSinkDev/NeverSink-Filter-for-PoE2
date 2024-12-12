@@ -1,4 +1,4 @@
-[![Follow me on Twitter](https://img.shields.io/badge/twitter-grey.svg?style=for-the-badge&logo=twitter)](https://twitter.com/NeverSinkDev) [![FilterBlade Discord](https://img.shields.io/badge/discord-grey.svg?style=for-the-badge&logo=discord)](https://discord.gg/mye6xhF) [![Watch FB Dev on Twitch](https://img.shields.io/badge/twitch-grey.svg?style=for-the-badge&logo=twitch)](https://twitch.tv/neversink) [![Support development on Patreon](https://img.shields.io/badge/patreon-grey.svg?style=for-the-badge&logo=patreon)](https://www.patreon.com/Neversink)
+[![Follow me on Twitter](https://img.shields.io/badge/twitter-grey.svg?style=for-the-badge&logo=twitter)](https://twitter.com/NeverSinkDev) [![FilterBlade Discord](https://img.shields.io/badge/discord-grey.svg?style=for-the-badge&logo=discord)](https://discord.gg/zFEx92a) [![Watch FB Dev on Twitch](https://img.shields.io/badge/twitch-grey.svg?style=for-the-badge&logo=twitch)](https://twitch.tv/neversink) [![Support development on Patreon](https://img.shields.io/badge/patreon-grey.svg?style=for-the-badge&logo=patreon)](https://www.patreon.com/Neversink)
 
 ## **QUICK START:**
 
@@ -21,10 +21,11 @@ Feature highlights
 - Socketed and quality items (not super happy with border, but works well)
 
 NOT yet implemented (coming soon hopefully):
-- NO way to highlight 'tier' items (not supported by PoE as of now)
+- No way to highlight 'tier' items (not supported by PoE as of now)
 - No filterblade support
-- No easy/direct way to install on consoles
+- No way to install on consoles
 - No strictness/style support
+- No economy based tiering
 
 ## **IMPORTANT: MUST READ:**
 
@@ -32,7 +33,7 @@ NOT yet implemented (coming soon hopefully):
 1) The filters in this GitHub project are ALWAYS updated before the start of a new league (4-6 hours before start). Afterwards, usually every few weeks.
 2) The filters from this GitHub project do NOT auto-update. At least redownload the latest version once a league - better once a month - to stay up-to-date and not miss out on valuable drops! There is an auto-updater, read about it below.
 3) Filters can't distinguish between different variations of one unique base! A unique "Leather Belt" can be an expensive "Headhunter" or a cheap "Wurm's Molt". The same goes for all unique jewels etc. Things that need manual checking usually have a blue icon on the minimap!
-4) Join our [Discord Server](https://discord.gg/mye6xhF) to get updates and ask questions.
+4) Join our [Discord Server](https://discord.gg/zFEx92a) to get updates and ask questions.
 
 ## **HOW TO INSTALL?**
 
@@ -45,7 +46,7 @@ Download the latest release from github.
 2) Paste the `NeverSinks Litefilter.filter` file into the following folder:
    - Windows: `%userprofile%\Documents\My Games\Path of Exile 2`
    - Linux: `steamapps/compatdata/2694490/pfx/drive_c/users/steamuser/My Documents/My Games/Path of Exile 2`
-4) INGAME: Escape -> Options -> Game -> Filters -> Select one of the filters from the dropdown box.
+4) INGAME: Escape -> Options -> Game -> Filters -> Select the filter from the dropdown box.
 5) Done. Enjoy.
 
 ## **SUPPORT:**
