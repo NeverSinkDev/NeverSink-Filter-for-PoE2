@@ -407,6 +407,18 @@ Rarity Magic
 SetFontSize 40
 
 #--------------------------
+# High Level Implicit Body Armours
+# Has a free extra mod for crafting endgame gear
+#--------------------------
+Show
+Class "Body Armours"
+DropLevel >= 65
+HasImplicitMod True
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+
+#--------------------------
 # Salvagable Items
 #--------------------------
 
