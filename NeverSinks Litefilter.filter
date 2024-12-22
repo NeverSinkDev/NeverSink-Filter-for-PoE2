@@ -530,6 +530,50 @@ Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One 
 # SetBackgroundColor 0 0 0 125
 
 #--------------------------
+# My Custom Rules
+#--------------------------
+
+Show
+Rarity >= Magic
+BaseType "Bombard Crossbow" "Mail Sabatons" "Braced Sabatons" "Stacked Sabatons" "Layered Gauntlets" "Ringmail Gauntlets" "Doubled Gauntlets" "Scale Mail" "Cloaked Mail" "Rogue Armour" "Shielded Helm" "Cowled Helm" "Guarded Helm"
+AreaLevel >= 65
+SetBorderColor 120 0 200
+SetFontSize 35
+
+Hide
+Rarity < Magic
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+AreaLevel >= 65
+
+#--------------------------
+# Gold
+#--------------------------
+
+Show
+AreaLevel >= 70
+StackSize >= 1000
+BaseType == "Gold"
+SetTextColor 255 179 0 255
+SetBorderColor 255 179 0 255
+SetBackgroundColor 255 255 255 150
+PlayEffect Orange Temp
+
+Show
+AreaLevel < 70
+StackSize >= 500
+BaseType == "Gold"
+SetTextColor 255 179 0
+SetBorderColor 255 179 0
+SetBackgroundColor 0 0 0 175
+PlayEffect Orange Temp
+
+Show
+BaseType == "Gold"
+SetTextColor 255 179 0
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 175
+
+#--------------------------
 # Meta
 #--------------------------
 
