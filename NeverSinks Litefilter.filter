@@ -48,7 +48,6 @@ PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-
 #--------------------------
 # Gold
 #--------------------------
@@ -57,23 +56,25 @@ Show
 AreaLevel >= 70
 StackSize >= 1000
 BaseType == "Gold"
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
+SetTextColor 255 179 0 255
+SetBorderColor 255 179 0 255
+SetBackgroundColor 255 255 255 150
 PlayEffect Orange Temp
 
 Show
 AreaLevel < 70
 StackSize >= 500
 BaseType == "Gold"
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
+SetTextColor 255 179 0
+SetBorderColor 255 179 0
+SetBackgroundColor 0 0 0 175
 PlayEffect Orange Temp
 
 Show
 BaseType == "Gold"
-SetTextColor 180 180 180
+SetTextColor 255 179 0
 SetBorderColor 0 0 0 255
-SetBackgroundColor 0 0 0 180
+SetBackgroundColor 0 0 0 175
 
 #--------------------------
 # Uncut Gems
@@ -541,37 +542,9 @@ SetBorderColor 120 0 200
 SetFontSize 35
 
 Hide
-Rarity < Magic
+Rarity <= Magic
 Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
 AreaLevel >= 65
-
-#--------------------------
-# Gold
-#--------------------------
-
-Show
-AreaLevel >= 70
-StackSize >= 1000
-BaseType == "Gold"
-SetTextColor 255 179 0 255
-SetBorderColor 255 179 0 255
-SetBackgroundColor 255 255 255 150
-PlayEffect Orange Temp
-
-Show
-AreaLevel < 70
-StackSize >= 500
-BaseType == "Gold"
-SetTextColor 255 179 0
-SetBorderColor 255 179 0
-SetBackgroundColor 0 0 0 175
-PlayEffect Orange Temp
-
-Show
-BaseType == "Gold"
-SetTextColor 255 179 0
-SetBorderColor 0 0 0 255
-SetBackgroundColor 0 0 0 175
 
 #--------------------------
 # Meta
