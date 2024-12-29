@@ -420,6 +420,11 @@ SetFontSize 40
 # Salvagable Items
 #--------------------------
 
+# Advance Crossbows 65 70 75
+Show
+BaseType "Advanced Forlorn Crossbow"
+SetFontSize 40
+
 Show
 Sockets > 0
 Rarity Normal
