@@ -83,7 +83,6 @@ BaseType == "Gold"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayEffect Orange Temp
-MinimapIcon 2 White Cross
 
 Show
 AreaLevel < 70
@@ -92,14 +91,12 @@ BaseType == "Gold"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayEffect Orange Temp
-MinimapIcon 2 White Cross
 
 Show
 BaseType == "Gold"
 SetTextColor 180 180 180
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 180
-MinimapIcon 2 Grey Cross
 
 #--------------------------
 # Uncut Gems
