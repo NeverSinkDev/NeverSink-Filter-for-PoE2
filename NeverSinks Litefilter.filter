@@ -237,7 +237,7 @@ PlayAlertSound 2 300
 
 # Special B Tier - Any Runes and Charms
 Show 
-BaseType " Rune" " Charm"
+BaseType "Rune" "Charm"
 SetTextColor 0 240 190
 PlayEffect Cyan Temp
 
@@ -302,7 +302,7 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
+BaseType "Simulacrum Splinter" "Breach Splinter" "Artifact" 
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
