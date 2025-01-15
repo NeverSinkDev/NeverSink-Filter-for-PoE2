@@ -11,7 +11,7 @@ This is my full filter for PoE2 and a successor to my initial lite-filter.
 
 Feature highlights
 
-- The filter comes with a companion website: [FilterBlade.xyz](https://filterblade.xyz). FilterBlade allows modifying, previewing and customizing the filter to your needs and to your specific build. It's also a great way to learn what the filter can do and it's many features/colors.
+- The filter comes with a companion website: [FilterBlade.xyz](https://filterblade.xyz). FilterBlade allows modifying, previewing and customizing the filter to your needs and to your specific build. It's also a great way to learn what the filter can do and its many features/colors.
 - 7 levels of strictness ranging from soft to uber-plus-strict (semi-strict is recommended for beginners). These define the number of items hidden. A higher strictness filter shows fewer items. Very Strict or above should not be used while leveling, unless you're twinked out in leveling gear.
 - Item colors, map icons and beams are clustered in a way to make item recognition really easy and minimize the cognitive efforts required to make good decisions. Plus due to the reuse of similar patterns it's good for your dopamin-on-drop-maxing.
 - added first alternative style: Dark Mode
