@@ -163,6 +163,142 @@ Show # %H3 $type->gold $tier->any
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 180
 
+#=================================
+# Show Scrolls
+#=================================
+#Show
+#	Class == "Stackable Currency"
+#	BaseType == "Scroll of Wisdom"
+#	SetFontSize 30
+#	SetTextColor 170 158 130
+
+#=================================
+# Primed & Volant Quivers
+#=================================
+Show
+	Rarity >= Rare	
+	Class "Quivers"
+	ItemLevel >= 81
+	BaseType "Primed Quiver" "Volant Quiver"
+	SetTextColor 202 227 193
+	SetBorderColor 202 227 193
+	SetBackgroundColor 60 156 19
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
+# Dualstring Bows
+#=================================
+Show
+	Rarity >= Rare	
+	Class "Bows"
+	ItemLevel >= 81
+	BaseType "Gemini Bow"
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+#=================================
+# Expert Quarterstaves
+#=================================
+Show
+	Rarity >= Rare
+	Class "Quarterstaff"
+	ItemLevel >= 81
+	BaseType "Aegis Quarterstaff" "Lunar Quarterstaff" "Razor Quarterstaff" "Gothic Quarterstaff"
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+#=================================
+# Emerald Rings
+#=================================
+Show
+	Rarity Normal
+	Class "Ring"	
+	BaseType "Emerald Ring"
+	SetTextColor 239 245 205
+	SetBorderColor 202 227 193
+	SetBackgroundColor 91 179 8
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
+# Solar Ammulet
+#=================================
+Show
+	Rarity Rare
+	Class "Amulet"
+	ItemLevel >= 81
+	BaseType "Solar Amulet"
+	SetTextColor 239 245 205
+	SetBorderColor 239 245 205
+	SetBackgroundColor 91 179 8
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
+# Body Armour
+#=================================
+Show
+	Rarity Rare
+	Class "Body Armour"
+	ItemLevel >= 81
+	BaseType "Sleek Jacket" "Wayfarer Jacket"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
+
+#=================================
+# Boots
+#=================================
+Show
+	Rarity Rare
+	Class "Boots"
+	ItemLevel >= 81
+	BaseType "Quickslip Shoes" "Threaded Shoes"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
+
+#=================================
+# Helmets
+#=================================
+Show
+	Rarity Rare
+	Class "Helmet"
+	ItemLevel >= 81
+	BaseType "Kamasan Tiara"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
+
 #===============================================================================================================
 # [[0200]] Exotic Bases
 #===============================================================================================================
@@ -1726,7 +1862,7 @@ Show # $type->gems->uncut $tier->spirit20
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
+	SetBackgroundColor 231 241 14
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
@@ -1748,23 +1884,23 @@ Show # %H5 $type->gems->uncut $tier->spirit19
 	ItemLevel 19
 	BaseType == "Uncut Spirit Gem"
 	SetFontSize 42
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
-	SetBackgroundColor 6 0 60
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 240 20 20
 	PlayAlertSound 2 300
-	PlayEffect Cyan
-	MinimapIcon 1 Cyan Triangle
+	PlayEffect Red
+	MinimapIcon 1 Red Triangle
 
 Show # %H5 $type->gems->uncut $tier->skill19
 	ItemLevel 19
 	BaseType == "Uncut Skill Gem"
 	SetFontSize 42
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
-	SetBackgroundColor 6 0 60
+	SetTextColor 240 20 20
+	SetBorderColor 240 20 20
+	SetBackgroundColor 0 0 0
 	PlayAlertSound 2 300
-	PlayEffect Cyan
-	MinimapIcon 1 Cyan Triangle
+	PlayEffect Red
+	MinimapIcon 1 Red Triangle
 
 # Spirit Gem Progression
 
@@ -1886,8 +2022,9 @@ Show # %H5 $type->gems->uncut $tier->spiritcampaign
 	BaseType == "Uncut Spirit Gem"
 	AreaLevel < 65
 	SetFontSize 42
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
+	SetTextColor 6 0 60
+	SetBorderColor 6 0 60
+	SetBackgroundColor 20 240 240
 	PlayAlertSound 2 300
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Triangle
@@ -1918,8 +2055,10 @@ Hide # %H2 $type->gems->uncut $tier->otherspiriteg
 	BaseType == "Uncut Spirit Gem"
 	AreaLevel >= 65
 	SetFontSize 35
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
+	SetTextColor 6 0 60
+	SetBorderColor 6 0 60
+	SetBackgroundColor 20 240 240
+	PlayEffect Cyan Temp
 
 Hide # %H2 $type->gems->uncut $tier->otherskilleg
 	BaseType == "Uncut Skill Gem"
