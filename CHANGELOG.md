@@ -7,6 +7,28 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.10.0** - Big Runes Update
+----------------------------------
+
+- Adjusted tiering for the new economy. A LOT of things changed, expect a lot of updates!
+- Added a Xeno-Tierlist for new league items - items from there will be eventually moved into other tierlists, once we know how to handle them
+- Integrated all of the new items into different tierlists all across the filter
+- Added the trarthan cannon into the typical tierlists
+- Added 2 rules for pseudo-crafts
+- Added rules for verisium
+- NEW STYLE: Vaal
+- NEW STYLE: Aura
+- Added rules for Verisium
+- A ton of tiering changes
+- The filter now supports strictness generation that goes up to 3 strictnesses higher and mixed strictnesses (FilterBlade exclusive)
+- Strictnesses within the filter have been reviewed, revamped and overhauled 
+- Improved the campaign gold progression, added 3 rules for campaign specific large goldpiles
+- Removed rare tablet rule
+- Crafting rules now have more priority than regular bases salvage rules
+- Added simple campaign unidentified tier ruling. T2 doesn't get any special treatment and follows the usual logic (as it's not very impactful). T3 and T4 is always highlighted, including when using FilterBlade's auto-adjust for build feature.
+- A lot of other smaller changes
+
+----------------------------------
 # **VERSION 0.9.1a** - Minor Tiering Adjustments
 ----------------------------------
 
