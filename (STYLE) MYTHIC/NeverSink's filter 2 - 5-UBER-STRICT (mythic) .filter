@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.10.0a
+# VERSION:  0.10.0b
 # TYPE:     5-UBER-STRICT
 # STYLE:    MYTHIC
 # AUTHOR:   NeverSink
@@ -228,7 +228,7 @@ Show # %D8 $type->exoticbases $tier->pseudocrafts1 !exotics_btier
 
 Show # %D8 $type->exoticbases $tier->pseudocrafts2 !exotics_ctier
 	Rarity Normal Magic Rare
-	BaseType == "Biostatic Ring" "Corona Amulet" "Grasping Ring" "Kinetic Ring" "Lament Amulet" "Mnemonic Ring" "Oneiric Ring" "Portent Amulet" "Twisted Amulet" "Vitalic Ring"
+	BaseType == "Biostatic Ring" "Corona Amulet" "Distorted Amulet" "Grasping Ring" "Kinetic Ring" "Lament Amulet" "Mnemonic Ring" "Oneiric Ring" "Portent Amulet" "Twisted Amulet" "Vitalic Ring"
 	SetFontSize 45
 	SetTextColor 0 204 255 255
 	PlayAlertSound 3 300
