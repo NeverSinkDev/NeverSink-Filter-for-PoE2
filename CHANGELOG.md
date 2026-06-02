@@ -7,6 +7,16 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.10.1** - Economy Update Runes of Aldur
+----------------------------------
+
+- **This league will have a second stable in a couple of days, because the amount of changes is so overwhelming**
+- Adjusted all tierlists to better match the current economy
+- Added treatment and safeguards for many new items, integrated aspects and meta-infos for all new uniques 
+- Tablets are now fully economy tiered correctly
+- Added utility belt to the lowest chancing tier
+
+----------------------------------
 # **VERSION 0.10.0** - Big Runes Update
 ----------------------------------
 

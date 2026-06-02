@@ -1,23 +1,11 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - Adjusted tiering for the new economy. A LOT of things changed, expect a lot of updates!
-  - Added a Xeno-Tierlist for new league items - items from there will be eventually moved into other tierlists, once we know how to handle them
-  - Integrated all of the new items into different tierlists all across the filter
-  - Added the trarthan cannon into the typical tierlists
-  - Added 2 rules for pseudo-crafts
-  - Added rules for verisium
-  - NEW STYLE: Vaal
-  - NEW STYLE: Aura
-  - Added rules for Verisium
-  - A ton of tiering changes
-  - The filter now supports strictness generation that goes up to 3 strictnesses higher and mixed strictnesses (FilterBlade exclusive)
-  - Strictnesses within the filter have been reviewed, revamped and overhauled
-  - Improved the campaign gold progression, added 3 rules for campaign specific large goldpiles
-  - Removed rare tablet rule
-  - Crafting rules now have more priority than regular bases salvage rules
-  - Added simple campaign unidentified tier ruling. T2 doesn't get any special treatment and follows the usual logic (as it's not very impactful). T3 and T4 is always highlighted, including when using FilterBlade's auto-adjust for build feature.
-  - A lot of other smaller changes
+  - **This league will have a second stable in a couple of days, because the amount of changes is so overwhelming**
+  - Adjusted all tierlists to better match the current economy
+  - Added treatment and safeguards for many new items, integrated aspects and meta-infos for all new uniques
+  - Tablets are now fully economy tiered correctly
+  - Added utility belt to the lowest chancing tier
   
   ------
 
