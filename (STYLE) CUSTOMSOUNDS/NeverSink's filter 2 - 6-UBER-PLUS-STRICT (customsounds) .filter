@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.10.0b
+# VERSION:  0.10.1
 # TYPE:     6-UBER-PLUS-STRICT
 # STYLE:    CUSTOMSOUNDS
 # AUTHOR:   NeverSink
@@ -73,16 +73,16 @@
 # [[1400]] Endgame - Rare - Gear
 # [[1500]] Untiered Rare Catcher
 # [[1600]] Hide Layer 2 - Rare Gear
-# [[1700]] Socketables - Runes and Soul Cores
-# [[1800]] Jewels
-# [[1900]] Relics
-# [[2000]] Gems and Uncut Gems
-# [[2100]] Waystones
-# [[2200]] Normal Waystone Progression
-#   [2201] Generic Decorators
-#   [2202] Special Maps
-#   [2203] Waystone progression
-# [[2300]] New League Unknown Items
+# [[1700]] New League Unknown Items
+# [[1800]] Socketables - Runes and Soul Cores
+# [[1900]] Jewels
+# [[2000]] Relics
+# [[2100]] Gems and Uncut Gems
+# [[2200]] Waystones
+# [[2300]] Normal Waystone Progression
+#   [2301] Generic Decorators
+#   [2302] Special Maps
+#   [2303] Waystone progression
 # [[2400]] Currency - Exceptions - Leveling Currencies
 # [[2500]] Currency - Regular Currency Tiering
 # [[2600]] Currency - SPECIAL
@@ -347,7 +347,7 @@ Show # %D9 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_acha
 	Corrupted False
 	Quality >= 24
 	Rarity Normal
-	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Breach Tablet" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Delirium Tablet" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Irradiated Tablet" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Overseer Tablet" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Ritual Tablet" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Temple Tablet" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -361,7 +361,7 @@ Show # %D9 $type->exotic->exceptional $tier->chancingoversocket3 !itemproperty_a
 	Sockets >= 3
 	Rarity Normal
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Talismans" "Two Hand Maces"
-	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Breach Tablet" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Delirium Tablet" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Irradiated Tablet" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Overseer Tablet" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Ritual Tablet" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Temple Tablet" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -375,7 +375,7 @@ Show # %D9 $type->exotic->exceptional $tier->chancingoversocket2 !itemproperty_a
 	Sockets >= 2
 	Rarity Normal
 	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Breach Tablet" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Delirium Tablet" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Irradiated Tablet" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Overseer Tablet" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Ritual Tablet" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Temple Tablet" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -461,7 +461,7 @@ Show # %D7 $type->chancing $tier->chancea !itemproperty_achancing
 	Mirrored False
 	Corrupted False
 	Rarity Normal
-	BaseType == "Heavy Belt" "Tribal Mask"
+	BaseType == "Heavy Belt"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -474,7 +474,7 @@ Show # %D7 $type->chancing $tier->chancea !itemproperty_achancing
 #	Mirrored False
 #	Corrupted False
 #	Rarity Normal
-#	BaseType == "Silver Charm"
+#	BaseType == "Silver Charm" "Utility Belt"
 #	SetFontSize 40
 #	SetBorderColor 0 200 95
 #	CustomAlertSound "3uniques.mp3" 300
@@ -2184,7 +2184,124 @@ Hide # $type->hidelayer $tier->raresendgame
 	DisableDropSound True
 
 #===============================================================================================================
-# [[1700]] Socketables - Runes and Soul Cores
+# [[1700]] New League Unknown Items
+#===============================================================================================================
+
+Show # $type->xenotiering $tier->s !apex_stier
+	BaseType == "Thaumaturgic Flux (Level 20)"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	CustomAlertSound "6veryvaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # %H8 $type->xenotiering $tier->a !xeno_a
+	BaseType == "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Medved's Crest of the Circle" "Olroth's Crest of the Sun" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Revered Starlit Ore" "Shattered Triskelion" "Thaumaturgic Flux (Level 19)" "The Runebinder's Alloy" "The Runefather's Alloy" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore" "Veridical Starlit Ore" "Vorana's Crest of the Scythe" "Warding Starlit Ore"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 28 55 135 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red UpsideDownHouse
+
+Show # %H7 $type->xenotiering $tier->b !xeno_b
+	BaseType == "Blazing Flux" "Celestial Alloy" "Chilling Flux" "Crackling Flux" "Exceptional Verisium" "Masterwork Rune" "Mystic Alloy" "Prismatic Alloy" "Sovereign Alloy" "Starlit Ore" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Transcendent Alloy" "Void Flux"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 70 130 225 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow UpsideDownHouse
+
+Show # %H6 $type->xenotiering $tier->c !xeno_c
+	BaseType == "Adaptive Alloy" "Banded Wombgift" "Cyclonic Alloy" "Expansive Alloy" "Lavish Wombgift" "Ornate Wombgift" "Protective Alloy" "Runic Alloy" "Signet Wombgift" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 125 180 240 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Yellow
+	MinimapIcon 1 White UpsideDownHouse
+
+Show # %H6 $type->xenotiering $tier->d !xeno_d
+	BaseType == "Animus Exchange" "Animus Splinters" "Bitter Dead" "Concussive Runes" "Conductive Runes" "Detonate Living" "Eternal March" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Leylines" "Powered by Verisium" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Runeforged Blades" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Skyfall" "Triskelion Cascade" "Verisium Manifestations" "Voltaic Barrier" "Wardbound Minions"
+	SetFontSize 40
+	SetTextColor 180 215 248 255
+	SetBorderColor 180 215 248 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Yellow Temp
+	MinimapIcon 2 White UpsideDownHouse
+
+#Show # %H5 $type->xenotiering $tier->e !xeno_e
+#	SetFontSize 38
+#	SetTextColor 180 215 248 255
+#	PlayEffect Purple Temp
+#	MinimapIcon 2 Grey UpsideDownHouse
+
+Hide # $type->xenotiering $tier->exhide !utility_minimize
+	BaseType == "Adaptive Alloy" "Animus Exchange" "Animus Splinters" "Banded Wombgift" "Bitter Dead" "Blazing Flux" "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Celestial Alloy" "Chilling Flux" "Concussive Runes" "Conductive Runes" "Crackling Flux" "Cryptic Key" "Cyclonic Alloy" "Detonate Living" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Eternal March" "Exceptional Verisium" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Lavish Wombgift" "Leylines" "Masterwork Rune" "Medved's Crest of the Circle" "Mystic Alloy" "Olroth's Crest of the Sun" "Ornate Wombgift" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Powered by Verisium" "Prismatic Alloy" "Protective Alloy" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Revelatory Wombgift" "Revered Starlit Ore" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Shattered Triskelion" "Signet Wombgift" "Skyfall" "Sovereign Alloy" "Starlit Ore" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 20)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Triskelion Cascade" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore" "Veridical Starlit Ore" "Verisium Manifestations" "Void Flux" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Wardbound Minions" "Warding Starlit Ore"
+	SetFontSize 18
+	SetBackgroundColor 20 20 0 0
+
+Show # $type->legacytemp $tier->any !xeno_a
+	Class == "Augment"
+	BaseType "Legacy of"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 28 55 135 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red UpsideDownHouse
+
+Show # $type->verisium $tier->massive !xeno_a
+	StackSize >= 1000
+	BaseType == "Verisium"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 28 55 135 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red UpsideDownHouse
+
+Show # $type->verisium $tier->huge !xeno_b
+	StackSize >= 150
+	BaseType == "Verisium"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 70 130 225 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow UpsideDownHouse
+
+Show # $type->verisium $tier->large !xeno_c
+	StackSize >= 30
+	BaseType == "Verisium"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 125 180 240 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Yellow
+	MinimapIcon 1 White UpsideDownHouse
+
+Show # $type->verisium $tier->any !xeno_d
+	BaseType == "Verisium"
+	SetFontSize 40
+	SetTextColor 180 215 248 255
+	SetBorderColor 180 215 248 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Yellow Temp
+	MinimapIcon 2 White UpsideDownHouse
+
+#===============================================================================================================
+# [[1800]] Socketables - Runes and Soul Cores
 #===============================================================================================================
 # !! Waypoint c7.miscgear.socketables : "Socketables - Runes and Soul Cores" : "Socketables"
 
@@ -2210,7 +2327,7 @@ Hide # $type->hidelayer $tier->raresendgame
 
 Show # $type->sockets->general $tier->s !apex_stier
 	Class == "Augment"
-	BaseType == "Cadigan's Epiphany" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Guatelitzi's Thesis" "Hedgewitch Assandra's Rune of Wisdom" "Jiquani's Thesis" "Kurgal's Gaze" "Quipolatl's Thesis" "Rabbit Idol" "Serle's Triumph" "Tecrod's Gaze"
+	BaseType == "Aldur's Legacy" "Cadigan's Epiphany" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Guatelitzi's Thesis" "Hedgewitch Assandra's Rune of Wisdom" "Jiquani's Thesis" "Kurgal's Gaze" "Quipolatl's Thesis" "Rabbit Idol" "Serle's Triumph" "Tecrod's Gaze"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2221,7 +2338,7 @@ Show # $type->sockets->general $tier->s !apex_stier
 
 Show # %H8 $type->sockets->general $tier->a !currency_a
 	Class == "Augment"
-	BaseType == "Aldur's Legacy" "Amanamu's Gaze" "Betrayal of Aldur" "Breath of Aldur" "Cholotl's Soul Core of War" "Citaqualotl's Thesis" "Fox Idol" "Greater Rune of Alacrity" "Greater Rune of Tithing" "Guatelitzi's Soul Core of Endurance" "Idol of Eeshta" "Idol of Egrin" "Idol of Grold" "Idol of Maxarius" "Idol of Ralakesh" "Idol of Sirrius" "Idol of Thruldana" "Ire of Aldur" "Opiloti's Soul Core of Assault" "Primate Idol" "Quipolatl's Soul Core of Flow" "Raven-Touched Shard" "Saqawal's Rune of Erosion" "Saqawal's Rune of the Sky" "Soul Core of Azcapa" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Quipolatl" "Soul Core of Ticaba" "Stag Idol" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Ulaman's Gaze" "Xopec's Soul Core of Power"
+	BaseType == "Amanamu's Gaze" "Betrayal of Aldur" "Breath of Aldur" "Cholotl's Soul Core of War" "Citaqualotl's Thesis" "Fox Idol" "Greater Rune of Alacrity" "Greater Rune of Tithing" "Guatelitzi's Soul Core of Endurance" "Idol of Eeshta" "Idol of Egrin" "Idol of Grold" "Idol of Maxarius" "Idol of Ralakesh" "Idol of Sirrius" "Idol of Thruldana" "Ire of Aldur" "Opiloti's Soul Core of Assault" "Primate Idol" "Quipolatl's Soul Core of Flow" "Raven-Touched Shard" "Saqawal's Rune of Erosion" "Saqawal's Rune of the Sky" "Soul Core of Azcapa" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Quipolatl" "Soul Core of Ticaba" "Stag Idol" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Ulaman's Gaze" "Xopec's Soul Core of Power"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2291,7 +2408,7 @@ Show # $type->sockets->general $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[1800]] Jewels
+# [[1900]] Jewels
 #===============================================================================================================
 # !! Waypoint c7.jewels.generic.all : "Jewels" : "Exotics"
 
@@ -2355,7 +2472,7 @@ Hide # %H5 $type->jewels->generic $tier->anymagic !gear_jewelmagic
 	SetBackgroundColor 30 0 70 255
 
 #===============================================================================================================
-# [[1900]] Relics
+# [[2000]] Relics
 #===============================================================================================================
 # !! Waypoint c7.relics.generic.all : "Relics (Trial of the Sekhema)" : "Fragments"
 
@@ -2368,7 +2485,7 @@ Show # $type->relics->generic $tier->any !exotics_dtier
 	PlayEffect Blue Temp
 
 #===============================================================================================================
-# [[2000]] Gems and Uncut Gems
+# [[2100]] Gems and Uncut Gems
 #===============================================================================================================
 # !! Waypoint c8.gems.uncut : "Gems - Uncut" : "Gems"
 
@@ -2637,12 +2754,12 @@ Show # $type->gems $tier->any !typebased_gems2
 	MinimapIcon 1 Cyan Triangle
 
 #===============================================================================================================
-# [[2100]] Waystones
+# [[2200]] Waystones
 #===============================================================================================================
 # !! Waypoint c9.waystones.all : "Waystones - Override All" : "Maps"
 
 #===============================================================================================================
-# [[2200]] Normal Waystone Progression
+# [[2300]] Normal Waystone Progression
 #===============================================================================================================
 # !! Waypoint c9.waystone.special : "Waystones - Override Hider Rules" : "Maps"
 
@@ -2661,7 +2778,7 @@ Show # $type->gems $tier->any !typebased_gems2
 #	SetBackgroundColor 20 20 0 0
 
 #------------------------------------
-#   [2201] Generic Decorators
+#   [2301] Generic Decorators
 #------------------------------------
 # !! Waypoint c9.waystone.decorators.all : "Waystones - Decorators" : "Maps"
 
@@ -2853,7 +2970,7 @@ Show # $type->waystones $tier->deco_corruptedmod !exotics_corrupthigh
 	Continue
 
 #------------------------------------
-#   [2202] Special Maps
+#   [2302] Special Maps
 #------------------------------------
 # !! Waypoint c9.waystone.decorators.special : "Waystones - Special Cases" : "Maps"
 
@@ -2913,7 +3030,7 @@ Hide # %H4 $type->waystones $tier->corrupted8 !maps_specialc
 	SetBackgroundColor 200 200 200 255
 
 #------------------------------------
-#   [2203] Waystone progression
+#   [2303] Waystone progression
 #------------------------------------
 # !! Waypoint c9.waystone.generic.t16 : "Waystones - t15-t16" : "Maps"
 
@@ -3054,123 +3171,6 @@ Show # $type->waystones $tier->restex !utility_unknownitem
 	CustomAlertSound "3uniques.mp3" 300
 	PlayEffect Pink
 	MinimapIcon 0 Pink Pentagon
-
-#===============================================================================================================
-# [[2300]] New League Unknown Items
-#===============================================================================================================
-
-Show # $type->xenotiering $tier->s !apex_stier
-	BaseType == "Thaumaturgic Flux (Level 20)"
-	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	CustomAlertSound "6veryvaluable.mp3" 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-
-Show # %H8 $type->xenotiering $tier->a !xeno_a
-	BaseType == "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Medved's Crest of the Circle" "Olroth's Crest of the Sun" "Revelatory Wombgift" "Revered Starlit Ore" "Shattered Triskelion" "Thaumaturgic Flux (Level 19)" "The Runebinder's Alloy" "The Runefather's Alloy" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore" "Veridical Starlit Ore" "Vorana's Crest of the Scythe" "Warding Starlit Ore"
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 28 55 135 255
-	CustomAlertSound "1maybevaluable.mp3" 300
-	PlayEffect Red
-	MinimapIcon 0 Red UpsideDownHouse
-
-Show # %H7 $type->xenotiering $tier->b !xeno_b
-	BaseType == "Blazing Flux" "Celestial Alloy" "Chilling Flux" "Crackling Flux" "Exceptional Verisium" "Masterwork Rune" "Mystic Alloy" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Prismatic Alloy" "Sovereign Alloy" "Starlit Ore" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Transcendent Alloy" "Void Flux"
-	SetFontSize 42
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 70 130 225 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow UpsideDownHouse
-
-Show # %H6 $type->xenotiering $tier->c !xeno_c
-	BaseType == "Adaptive Alloy" "Banded Wombgift" "Cyclonic Alloy" "Expansive Alloy" "Lavish Wombgift" "Ornate Wombgift" "Protective Alloy" "Runic Alloy" "Signet Wombgift" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)"
-	SetFontSize 42
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 125 180 240 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Yellow
-	MinimapIcon 1 White UpsideDownHouse
-
-Show # %H6 $type->xenotiering $tier->d !xeno_d
-	BaseType == "Animus Exchange" "Animus Splinters" "Bitter Dead" "Concussive Runes" "Conductive Runes" "Detonate Living" "Eternal March" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Leylines" "Powered by Verisium" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Runeforged Blades" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Skyfall" "Triskelion Cascade" "Verisium Manifestations" "Voltaic Barrier" "Wardbound Minions"
-	SetFontSize 40
-	SetTextColor 180 215 248 255
-	SetBorderColor 180 215 248 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Yellow Temp
-	MinimapIcon 2 White UpsideDownHouse
-
-#Show # %H5 $type->xenotiering $tier->e !xeno_e
-#	SetFontSize 38
-#	SetTextColor 180 215 248 255
-#	PlayEffect Purple Temp
-#	MinimapIcon 2 Grey UpsideDownHouse
-
-Hide # $type->xenotiering $tier->exhide !utility_minimize
-	BaseType == "Adaptive Alloy" "Animus Exchange" "Animus Splinters" "Banded Wombgift" "Bitter Dead" "Blazing Flux" "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Celestial Alloy" "Chilling Flux" "Concussive Runes" "Conductive Runes" "Crackling Flux" "Cryptic Key" "Cyclonic Alloy" "Detonate Living" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Eternal March" "Exceptional Verisium" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Lavish Wombgift" "Leylines" "Masterwork Rune" "Medved's Crest of the Circle" "Mystic Alloy" "Olroth's Crest of the Sun" "Ornate Wombgift" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Powered by Verisium" "Prismatic Alloy" "Protective Alloy" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Revelatory Wombgift" "Revered Starlit Ore" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Shattered Triskelion" "Signet Wombgift" "Skyfall" "Sovereign Alloy" "Starlit Ore" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 20)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Triskelion Cascade" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore" "Veridical Starlit Ore" "Verisium Manifestations" "Void Flux" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Wardbound Minions" "Warding Starlit Ore"
-	SetFontSize 18
-	SetBackgroundColor 20 20 0 0
-
-Show # $type->legacytemp $tier->any !xeno_a
-	Class == "Augment"
-	BaseType "Legacy of"
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 28 55 135 255
-	CustomAlertSound "1maybevaluable.mp3" 300
-	PlayEffect Red
-	MinimapIcon 0 Red UpsideDownHouse
-
-Show # $type->verisium $tier->massive !xeno_a
-	StackSize >= 1000
-	BaseType == "Verisium"
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 28 55 135 255
-	CustomAlertSound "1maybevaluable.mp3" 300
-	PlayEffect Red
-	MinimapIcon 0 Red UpsideDownHouse
-
-Show # $type->verisium $tier->huge !xeno_b
-	StackSize >= 150
-	BaseType == "Verisium"
-	SetFontSize 42
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 70 130 225 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow UpsideDownHouse
-
-Show # $type->verisium $tier->large !xeno_c
-	StackSize >= 30
-	BaseType == "Verisium"
-	SetFontSize 42
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 125 180 240 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Yellow
-	MinimapIcon 1 White UpsideDownHouse
-
-Show # $type->verisium $tier->any !xeno_d
-	BaseType == "Verisium"
-	SetFontSize 40
-	SetTextColor 180 215 248 255
-	SetBorderColor 180 215 248 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Yellow Temp
-	MinimapIcon 2 White UpsideDownHouse
 
 #===============================================================================================================
 # [[2400]] Currency - Exceptions - Leveling Currencies
@@ -3744,7 +3744,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # %H8 $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Pyrophyte Staff" "Ravenous Staff" "Rope Cuffs" "Sacred Focus" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Mana Flask" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Barbed Spear" "Blacksteel Tower Shield" "Breach Tablet" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Delirium Tablet" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Intricate Crest Shield" "Ironclad Vestments" "Irradiated Tablet" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Overseer Tablet" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Pyrophyte Staff" "Ravenous Staff" "Ritual Tablet" "Rope Cuffs" "Sacred Focus" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Temple Tablet" "Thawing Charm" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Mana Flask" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3827,7 +3827,7 @@ Show # $type->uniques $tier->multispecialhigh !uniques_x
 
 Show # $type->uniques $tier->multispecial !uniques_x
 	Rarity Unique
-	BaseType == "Antler Focus" "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Broadhead Quiver" "Composite Bow" "Crude Bow" "Delirium Tablet" "Dualstring Bow" "Face Mask" "Fur Plate" "Furtive Wraps" "Gold Amulet" "Gold Ring" "Iron Ring" "Irradiated Tablet" "Lazuli Ring" "Marabout Garb" "Martyr Crown" "Overseer Tablet" "Pathfinder Coat" "Pearl Ring" "Rawhide Belt" "Ritual Tablet" "Riveted Mitts" "Sapphire Ring" "Shortbow" "Solar Amulet" "Spiked Club" "Temple Tablet" "Topaz Ring" "Wrapped Sandals"
+	BaseType == "Antler Focus" "Array Buckler" "Bloodstone Amulet" "Broadhead Quiver" "Composite Bow" "Crude Bow" "Dualstring Bow" "Face Mask" "Fur Plate" "Furtive Wraps" "Gold Amulet" "Gold Ring" "Iron Ring" "Lazuli Ring" "Marabout Garb" "Martyr Crown" "Pathfinder Coat" "Pearl Ring" "Rawhide Belt" "Riveted Mitts" "Sapphire Ring" "Shortbow" "Solar Amulet" "Spiked Club" "Topaz Ring" "Wrapped Sandals"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
