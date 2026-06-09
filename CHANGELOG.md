@@ -7,6 +7,14 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.10.2** - BaseType tiering update
+----------------------------------
+
+- The filter now highlights expensive ItemLevel 79+ and 82+ basetypes. These are economy based and are based on some local automations I'm running. This is an experimental feature. These will receive updates more or less daily. Feedback highly appreciated.
+- Further improved the tiering of all the new basetypes and items added
+- Fixed logbook appearance
+
+----------------------------------
 # **VERSION 0.10.1** - Economy Update Runes of Aldur
 ----------------------------------
 

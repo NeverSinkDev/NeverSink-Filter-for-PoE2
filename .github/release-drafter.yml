@@ -1,11 +1,9 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - **This league will have a second stable in a couple of days, because the amount of changes is so overwhelming**
-  - Adjusted all tierlists to better match the current economy
-  - Added treatment and safeguards for many new items, integrated aspects and meta-infos for all new uniques
-  - Tablets are now fully economy tiered correctly
-  - Added utility belt to the lowest chancing tier
+  - The filter now highlights expensive ItemLevel 79+ and 82+ basetypes. These are economy based and are based on some local automations I'm running. This is an experimental feature. These will receive updates more or less daily. Feedback highly appreciated.
+  - Further improved the tiering of all the new basetypes and items added
+  - Fixed logbook appearance
   
   ------
 

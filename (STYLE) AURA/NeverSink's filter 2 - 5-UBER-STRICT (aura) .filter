@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.10.1a
+# VERSION:  0.10.2
 # TYPE:     5-UBER-STRICT
 # STYLE:    AURA
 # AUTHOR:   NeverSink
@@ -55,68 +55,69 @@
 # [[0400]] IDENTIFIED MODS: RECOMBINATOR MODS
 # [[0500]] Rare Item Decorators
 # [[0600]] Normal, Magic, Rare Hiding Rules
-# [[0700]] High Unidentified Mod Tier
-# [[0800]] Endgame Flasks
-# [[0900]] Endgame Charms
-# [[1000]] Normal and Magic Items: Endgame
-#   [1001] Normal, Magic Crafting Decorators
-#   [1002] Additional High Value Rules
-#   [1003] Normal, Magic Crafting: Level 82+
-#   [1004] Normal, Magic Crafting: Optional Rules
-#   [1005] Normal, Magic Crafting: Endgame Progression
-#   [1006] Normal, Magic Crafting: Rings+Amulets
-#   [1007] Normal, Magic Crafting: Decorator Removers
-#   [1008] Salvagables
-# [[1100]] Hide Layer 1 - Normal and Magic Endgame Gear
-# [[1200]] Endgame - Conditional Hide Layers
-# [[1300]] Endgame - Rare - Jewellery
-# [[1400]] Endgame - Rare - Gear
-# [[1500]] Untiered Rare Catcher
-# [[1600]] Hide Layer 2 - Rare Gear
-# [[1700]] New League Unknown Items
-# [[1800]] Socketables - Runes and Soul Cores
-# [[1900]] Jewels
-# [[2000]] Relics
-# [[2100]] Gems and Uncut Gems
-# [[2200]] Waystones
-# [[2300]] Normal Waystone Progression
-#   [2301] Generic Decorators
-#   [2302] Special Maps
-#   [2303] Waystone progression
-# [[2400]] Currency - Exceptions - Leveling Currencies
-# [[2500]] Currency - Regular Currency Tiering
-# [[2600]] Currency - SPECIAL
-#   [2601] Distilled Emotions (Delirium)
-#   [2602] Catalysts (breach)
-#   [2603] Essences
-#   [2604] Omen (ritual)
-# [[2700]] Misc Map Like
-# [[2800]] Uniques
-#   [2801] Exceptions #1
-#   [2802] Tier 1 and 2 uniques
-#   [2803] Multi-Unique bases.
-#   [2804] Low tier exceptions
-#   [2805] Tier 3 uniques 
-#   [2806] Tier 4 uniques
-# [[2900]] Splinters, Tablets, Fragments
-# [[3000]] Misc Map Items
-# [[3100]] Remaining Currency
-# [[3200]] Leveling - Salvagable
-# [[3300]] Leveling - Hide outdated leveling flasks
-# [[3400]] Leveling - Life Mana Flasks
-#   [3401] Life flasks
-#   [3402] Mana flasks
-#   [3403] Charms
-# [[3500]] Leveling - Rules
-#   [3501] Rares - Decorators
-#   [3502] Rares - Universal
-#   [3503] Rares - Other
-# [[3600]] Leveling - Useful magic and normal items
-#   [3601] Decorators
-#   [3602] Purpose Picked Items
-#   [3603] Conditional Rules
-#   [3604] Hide All known Section
-#   [3605] Show All unknown Section
+# [[0700]] Economy Crafting Bases
+# [[0800]] High Unidentified Mod Tier
+# [[0900]] Endgame Flasks
+# [[1000]] Endgame Charms
+# [[1100]] Normal and Magic Items: Endgame
+#   [1101] Normal, Magic Crafting Decorators
+#   [1102] Additional High Value Rules
+#   [1103] Normal, Magic Crafting: Level 82+
+#   [1104] Normal, Magic Crafting: Optional Rules
+#   [1105] Normal, Magic Crafting: Endgame Progression
+#   [1106] Normal, Magic Crafting: Rings+Amulets
+#   [1107] Normal, Magic Crafting: Decorator Removers
+#   [1108] Salvagables
+# [[1200]] Hide Layer 1 - Normal and Magic Endgame Gear
+# [[1300]] Endgame - Conditional Hide Layers
+# [[1400]] Endgame - Rare - Jewellery
+# [[1500]] Endgame - Rare - Gear
+# [[1600]] Untiered Rare Catcher
+# [[1700]] Hide Layer 2 - Rare Gear
+# [[1800]] New League Unknown Items
+# [[1900]] Socketables - Runes and Soul Cores
+# [[2000]] Jewels
+# [[2100]] Relics
+# [[2200]] Gems and Uncut Gems
+# [[2300]] Waystones
+# [[2400]] Normal Waystone Progression
+#   [2401] Generic Decorators
+#   [2402] Special Maps
+#   [2403] Waystone progression
+# [[2500]] Currency - Exceptions - Leveling Currencies
+# [[2600]] Currency - Regular Currency Tiering
+# [[2700]] Currency - SPECIAL
+#   [2701] Distilled Emotions (Delirium)
+#   [2702] Catalysts (breach)
+#   [2703] Essences
+#   [2704] Omen (ritual)
+# [[2800]] Misc Map Like
+# [[2900]] Uniques
+#   [2901] Exceptions #1
+#   [2902] Tier 1 and 2 uniques
+#   [2903] Multi-Unique bases.
+#   [2904] Low tier exceptions
+#   [2905] Tier 3 uniques 
+#   [2906] Tier 4 uniques
+# [[3000]] Splinters, Tablets, Fragments
+# [[3100]] Misc Map Items
+# [[3200]] Remaining Currency
+# [[3300]] Leveling - Salvagable
+# [[3400]] Leveling - Hide outdated leveling flasks
+# [[3500]] Leveling - Life Mana Flasks
+#   [3501] Life flasks
+#   [3502] Mana flasks
+#   [3503] Charms
+# [[3600]] Leveling - Rules
+#   [3601] Rares - Decorators
+#   [3602] Rares - Universal
+#   [3603] Rares - Other
+# [[3700]] Leveling - Useful magic and normal items
+#   [3701] Decorators
+#   [3702] Purpose Picked Items
+#   [3703] Conditional Rules
+#   [3704] Hide All known Section
+#   [3705] Show All unknown Section
 
 #===============================================================================================================
 # [[0100]] Gold
@@ -862,7 +863,50 @@ Show # $type->decorators->rareeg $tier->corruptedraresimplicit !exotics_corrupth
 #	SetBackgroundColor 20 20 0 0
 
 #===============================================================================================================
-# [[0700]] High Unidentified Mod Tier
+# [[0700]] Economy Crafting Bases
+#===============================================================================================================
+# !! Waypoint c3.exotic.state.ecocraft : "High Value Crafting Bases" : "Crafting"
+
+Show # %D9 $type->endgame->normalcraft->economy $tier->group1t1 !itemproperty_aecocraft
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 82
+	Rarity Normal
+	BaseType == "Ancestral Tiara" "Daggerfoot Shoes" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Sekhema Sandals" "Sinister Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Solar Amulet" "Striking Quarterstaff" "Vile Robe" "Warmonger Bow"
+	SetFontSize 45
+	SetTextColor 255 127 127 255
+	SetBorderColor 255 127 127 255
+	SetBackgroundColor 65 0 0
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
+
+Show # %D7 $type->endgame->normalcraft->economy $tier->group1t2 !itemproperty_becocraft
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 82
+	Rarity Normal
+	BaseType == "Akoyan Spear" "Amethyst Ring" "Desolate Crossbow" "Drakeskin Boots" "Dreaming Quarterstaff" "Flying Spear" "Kamasan Tiara" "Luxurious Slippers" "Opulent Gloves" "Quickslip Shoes" "Razor Quarterstaff" "Ruby Ring" "Sandsworn Sandals" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sorcerous Tiara" "Tasalian Focus" "Unset Ring" "Vaal Gloves" "Vaal Wraps"
+	SetFontSize 45
+	SetBorderColor 255 127 127
+	PlayAlertSound 3 300
+	PlayEffect Yellow Temp
+	MinimapIcon 1 Yellow Diamond
+
+Show # %D6 $type->endgame->normalcraft->economy $tier->group2t2 !itemproperty_becocraft
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 79
+	Rarity Normal
+	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Utility Belt"
+	SetFontSize 45
+	SetBorderColor 255 127 127
+	PlayAlertSound 3 300
+	PlayEffect Yellow Temp
+	MinimapIcon 1 Yellow Diamond
+
+#===============================================================================================================
+# [[0800]] High Unidentified Mod Tier
 #===============================================================================================================
 # !! Waypoint c3.exotic.state.hightier : "Rare items with Mod Tier" : "ModTierRare"
 
@@ -1328,7 +1372,7 @@ Show # %D6 $type->ut->magic $tier->anyremaining4j !gear_highlightdrop2
 	SetBackgroundColor 10 0 40
 
 #===============================================================================================================
-# [[0800]] Endgame Flasks
+# [[0900]] Endgame Flasks
 #===============================================================================================================
 # !! Waypoint c3.flasks.endgame : "Flasks (Endgame)" : "SalvageMisc"
 
@@ -1366,7 +1410,7 @@ Show # %D5 $type->endgame->flasks $tier->toplevelflasks
 #	SetBorderColor 10 14 35 255
 
 #===============================================================================================================
-# [[0900]] Endgame Charms
+# [[1000]] Endgame Charms
 #===============================================================================================================
 # !! Waypoint c3.charms.endgame : "Charms (Endgame)" : "SalvageMisc"
 
@@ -1441,11 +1485,11 @@ Show # %D5 $type->endgame->charms $tier->hight1charms !typebased_flaskcharms1hig
 #	SetBorderColor 10 14 35 255
 
 #===============================================================================================================
-# [[1000]] Normal and Magic Items: Endgame
+# [[1100]] Normal and Magic Items: Endgame
 #===============================================================================================================
 
 #------------------------------------
-#   [1001] Normal, Magic Crafting Decorators
+#   [1101] Normal, Magic Crafting Decorators
 #------------------------------------
 # !! Waypoint c4.gear.crafting.decorators : "Crafting Decorators - Visual override for crafting items" : "Technical"
 
@@ -1507,7 +1551,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorjwlry !gear_
 	Continue
 
 #------------------------------------
-#   [1002] Additional High Value Rules
+#   [1102] Additional High Value Rules
 #------------------------------------
 # !! Waypoint c4.gear.crafting.all : "Crafting Bases - Handpicked Magic and Normal Bases" : "Crafting"
 
@@ -1520,7 +1564,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorjwlry !gear_
 #	SetBorderColor 122 87 0
 
 #------------------------------------
-#   [1003] Normal, Magic Crafting: Level 82+
+#   [1103] Normal, Magic Crafting: Level 82+
 #------------------------------------
 
 # Best itemlevel bases (82)
@@ -1547,7 +1591,7 @@ Show # %D5 $type->endgame->normalcraft->any $tier->t1ideallevel !gear_unstyled
 #	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Massive Spear" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 
 #------------------------------------
-#   [1004] Normal, Magic Crafting: Optional Rules
+#   [1104] Normal, Magic Crafting: Optional Rules
 #------------------------------------
 # Matrix pauses: Optional: highlight +5minion bases for sumonners (81)
 
@@ -1560,7 +1604,7 @@ Show # %D5 $type->endgame->normalcraft->any $tier->t1ideallevel !gear_unstyled
 #	SetBorderColor 122 87 0
 
 #------------------------------------
-#   [1005] Normal, Magic Crafting: Endgame Progression
+#   [1105] Normal, Magic Crafting: Endgame Progression
 #------------------------------------
 # Matrix proceeds here. Best available bases
 
@@ -1588,7 +1632,7 @@ Show # %D5 $type->endgame->normalcraft->any $tier->t1ideallevel !gear_unstyled
 #	AreaLevel <= 70
 
 #------------------------------------
-#   [1006] Normal, Magic Crafting: Rings+Amulets
+#   [1106] Normal, Magic Crafting: Rings+Amulets
 #------------------------------------
 # !! Waypoint c4.gear.jewellery : "Jewellery - Endgame Magic&Normal" : "Crafting"
 
@@ -1665,7 +1709,7 @@ Show # %D5 $type->endgame->jewellery $tier->jt1 !gear_highlightdrop3
 #	SetFontSize 40
 
 #------------------------------------
-#   [1007] Normal, Magic Crafting: Decorator Removers
+#   [1107] Normal, Magic Crafting: Decorator Removers
 #------------------------------------
 
 Show # $type->endgame->normalcraft->decorator $tier->magicdecoratorremover !utility_decoremovermagic
@@ -1693,7 +1737,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorremover !uti
 	Continue
 
 #------------------------------------
-#   [1008] Salvagables
+#   [1108] Salvagables
 #------------------------------------
 # !! Waypoint c4.gear.salvagable : "Normal-Rare items, excluding High Tier & Chancing" : "SalvageMisc"
 
@@ -1816,7 +1860,7 @@ Show # $type->special->alwaysshow $tier->any !exotics_dtier
 	PlayEffect Blue Temp
 
 #===============================================================================================================
-# [[1100]] Hide Layer 1 - Normal and Magic Endgame Gear
+# [[1200]] Hide Layer 1 - Normal and Magic Endgame Gear
 #===============================================================================================================
 # !! Waypoint c5.hidelayer.normalmagic : "HIDELAYER - All other endgame equipment normal&magic items" : "Technical"
 
@@ -1839,7 +1883,7 @@ Hide # $type->hidelayer $tier->normalmagicendgame
 	DisableDropSound True
 
 #===============================================================================================================
-# [[1200]] Endgame - Conditional Hide Layers
+# [[1300]] Endgame - Conditional Hide Layers
 #===============================================================================================================
 # !! Waypoint c6.rare.optionalhide : "Rare Endgame Items - (Optional) Hiding Corrupted and Mirrored Items" : "Technical"
 
@@ -1862,7 +1906,7 @@ Hide # $type->hidelayer $tier->normalmagicendgame
 #	SetBackgroundColor 20 20 0 0
 
 #===============================================================================================================
-# [[1300]] Endgame - Rare - Jewellery
+# [[1400]] Endgame - Rare - Jewellery
 #===============================================================================================================
 # !! Waypoint c6.rare.jewellery.all : "Rare Endgame Items - Amulets, Rings" : "Rares"
 
@@ -1939,7 +1983,7 @@ Show # %D5 $type->rr->jewellery $tier->t2 !gear_jewellery1
 #	MinimapIcon 1 White Diamond
 
 #===============================================================================================================
-# [[1400]] Endgame - Rare - Gear
+# [[1500]] Endgame - Rare - Gear
 #===============================================================================================================
 # !! Waypoint c6.rare.t1.all : "Rare Endgame Items - T1 (75ish+ gear), no tier" : "Rares"
 
@@ -2069,7 +2113,7 @@ Show # %D5 $type->rr $tier->t1_top !gear_highlightedsize
 #	SetBackgroundColor 20 20 0 220
 
 #===============================================================================================================
-# [[1500]] Untiered Rare Catcher
+# [[1600]] Untiered Rare Catcher
 #===============================================================================================================
 # !! Waypoint c6.rare.rest : "Rare Endgame Items - Others, Salvagable bases" : "SalvageMisc"
 
@@ -2156,7 +2200,7 @@ Show # %D5 $type->rare->salvagable $tier->quality2armorany !itemproperty_salvage
 #	SetBorderColor 127 127 127
 
 #===============================================================================================================
-# [[1600]] Hide Layer 2 - Rare Gear
+# [[1700]] Hide Layer 2 - Rare Gear
 #===============================================================================================================
 
 #Show # %D0 $type->lowstrictnessshowlayer $tier->raresendgameany !utility_unremarkabledrop
@@ -2178,11 +2222,11 @@ Hide # $type->hidelayer $tier->raresendgame
 	DisableDropSound True
 
 #===============================================================================================================
-# [[1700]] New League Unknown Items
+# [[1800]] New League Unknown Items
 #===============================================================================================================
 
 Show # $type->xenotiering $tier->s !apex_stier
-	BaseType == "Carved Majesty" "Celestial Alloy" "Emergent Possibility" "Olroth's Crest of the Sun" "Thaumaturgic Flux (Level 20)" "The Runebinder's Alloy" "Transcendent Alloy" "Warding Starlit Ore"
+	BaseType == "Carved Cunning" "Carved Majesty" "Celestial Alloy" "Emergent Possibility" "Olroth's Crest of the Sun" "Thaumaturgic Flux (Level 20)" "The Runebinder's Alloy" "Transcendent Alloy" "Warding Starlit Ore"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2192,7 +2236,7 @@ Show # $type->xenotiering $tier->s !apex_stier
 	MinimapIcon 0 Red Star
 
 Show # %H8 $type->xenotiering $tier->a !xeno_a
-	BaseType == "Carved Cunning" "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Protection" "Emergent Vigour" "Masterwork Rune" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Revered Starlit Ore" "Shattered Triskelion" "Thaumaturgic Flux (Level 19)" "The Runefather's Alloy" "Veridical Starlit Ore" "Void Flux"
+	BaseType == "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Protection" "Emergent Vigour" "Masterwork Rune" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Revered Starlit Ore" "Shattered Triskelion" "Thaumaturgic Flux (Level 19)" "The Runefather's Alloy" "Veridical Starlit Ore" "Void Flux"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2295,7 +2339,7 @@ Show # $type->verisium $tier->any !xeno_d
 	MinimapIcon 2 White UpsideDownHouse
 
 #===============================================================================================================
-# [[1800]] Socketables - Runes and Soul Cores
+# [[1900]] Socketables - Runes and Soul Cores
 #===============================================================================================================
 # !! Waypoint c7.miscgear.socketables : "Socketables - Runes and Soul Cores" : "Socketables"
 
@@ -2399,7 +2443,7 @@ Show # $type->sockets->general $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[1900]] Jewels
+# [[2000]] Jewels
 #===============================================================================================================
 # !! Waypoint c7.jewels.generic.all : "Jewels" : "Exotics"
 
@@ -2466,7 +2510,7 @@ Show # %H5 $type->jewels->generic $tier->anymagic !gear_jewelmagic
 	MinimapIcon 1 Blue Diamond
 
 #===============================================================================================================
-# [[2000]] Relics
+# [[2100]] Relics
 #===============================================================================================================
 # !! Waypoint c7.relics.generic.all : "Relics (Trial of the Sekhema)" : "Fragments"
 
@@ -2479,7 +2523,7 @@ Show # $type->relics->generic $tier->any !exotics_dtier
 	PlayEffect Blue Temp
 
 #===============================================================================================================
-# [[2100]] Gems and Uncut Gems
+# [[2200]] Gems and Uncut Gems
 #===============================================================================================================
 # !! Waypoint c8.gems.uncut : "Gems - Uncut" : "Gems"
 
@@ -2691,35 +2735,39 @@ Show # %H5 $type->gems->uncut $tier->supportcampaign !typebased_gems2
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Triangle
 
-Hide # %H4 $type->gems->uncut $tier->supportearlymaps !typebased_gems2
+Show # %H5 $type->gems->uncut $tier->supportearlymaps !typebased_gems2
 	BaseType "Uncut Support Gem"
 	AreaLevel <= 78
 	SetFontSize 45
 	SetTextColor 184 205 255 255
 	SetBorderColor 184 205 255 255
+	PlayAlertSound 2 300
+	PlayEffect Cyan
+	MinimapIcon 1 Cyan Triangle
 
 # Lower highlight for lower level gems in maps
 
-Hide # %H2 $type->gems->uncut $tier->otherspiriteg !typebased_gems3
+Hide # %H4 $type->gems->uncut $tier->otherspiriteg !typebased_gems3
 	BaseType "Uncut Spirit Gem"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 184 205 255 255
 	SetBorderColor 184 205 255 255
 
-Hide # %H2 $type->gems->uncut $tier->otherskilleg !typebased_gems3
+Hide # %H3 $type->gems->uncut $tier->otherskilleg !typebased_gems3
 	BaseType "Uncut Skill Gem"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 184 205 255 255
 	SetBorderColor 184 205 255 255
 
-Hide # %H3 $type->gems->uncut $tier->othersupporteg !typebased_gems3
+Show # %H6 $type->gems->uncut $tier->othersupporteg !typebased_gems3
 	BaseType "Uncut Support Gem"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 184 205 255 255
 	SetBorderColor 184 205 255 255
+	PlayEffect Cyan Temp
 
 # Hider for filterblade
 
@@ -2764,12 +2812,12 @@ Show # $type->gems $tier->any !typebased_gems2
 	MinimapIcon 1 Cyan Triangle
 
 #===============================================================================================================
-# [[2200]] Waystones
+# [[2300]] Waystones
 #===============================================================================================================
 # !! Waypoint c9.waystones.all : "Waystones - Override All" : "Maps"
 
 #===============================================================================================================
-# [[2300]] Normal Waystone Progression
+# [[2400]] Normal Waystone Progression
 #===============================================================================================================
 # !! Waypoint c9.waystone.special : "Waystones - Override Hider Rules" : "Maps"
 
@@ -2788,7 +2836,7 @@ Show # $type->gems $tier->any !typebased_gems2
 #	SetBackgroundColor 20 20 0 0
 
 #------------------------------------
-#   [2301] Generic Decorators
+#   [2401] Generic Decorators
 #------------------------------------
 # !! Waypoint c9.waystone.decorators.all : "Waystones - Decorators" : "Maps"
 
@@ -2980,7 +3028,7 @@ Show # $type->waystones $tier->deco_corruptedmod !exotics_corrupthigh
 	Continue
 
 #------------------------------------
-#   [2302] Special Maps
+#   [2402] Special Maps
 #------------------------------------
 # !! Waypoint c9.waystone.decorators.special : "Waystones - Special Cases" : "Maps"
 
@@ -3037,7 +3085,7 @@ Hide # %H4 $type->waystones $tier->corrupted8 !maps_specialc
 	SetBorderColor 255 255 255 255
 
 #------------------------------------
-#   [2303] Waystone progression
+#   [2403] Waystone progression
 #------------------------------------
 # !! Waypoint c9.waystone.generic.t16 : "Waystones - t15-t16" : "Maps"
 
@@ -3169,7 +3217,7 @@ Show # $type->waystones $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2400]] Currency - Exceptions - Leveling Currencies
+# [[2500]] Currency - Exceptions - Leveling Currencies
 #===============================================================================================================
 # !! Waypoint c9.currency.leveling.nonstacked : "Tierlist - Currency - Leveling Currency" : "Leveling"
 
@@ -3218,7 +3266,7 @@ Show # %D5 $type->currency->leveling $tier->rare
 #	SetTextColor 205 192 165 255
 
 #===============================================================================================================
-# [[2500]] Currency - Regular Currency Tiering
+# [[2600]] Currency - Regular Currency Tiering
 #===============================================================================================================
 # !! Waypoint c9.currency.single : "Tierlist - Currency - General" : "Currency"
 
@@ -3311,10 +3359,10 @@ Hide # $type->currency $tier->exhide !utility_minimize
 	SetBackgroundColor 20 20 0 0
 
 #===============================================================================================================
-# [[2600]] Currency - SPECIAL
+# [[2700]] Currency - SPECIAL
 #===============================================================================================================
 #------------------------------------
-#   [2601] Distilled Emotions (Delirium)
+#   [2701] Distilled Emotions (Delirium)
 #------------------------------------
 # !! Waypoint c9.currency.emotions.all : "Tierlist - Distilled Emotions (Delirium)" : "Currency"
 
@@ -3396,7 +3444,7 @@ Show # $type->currency->emotions $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #------------------------------------
-#   [2602] Catalysts (breach)
+#   [2702] Catalysts (breach)
 #------------------------------------
 # !! Waypoint c9.currency.catalysts.all : "Tierlist - Catalysts (Breach)" : "Currency"
 
@@ -3476,7 +3524,7 @@ Show # $type->currency->catalysts $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #------------------------------------
-#   [2603] Essences
+#   [2703] Essences
 #------------------------------------
 # !! Waypoint c9.currency.essences.all : "Tierlist - Essences" : "Currency"
 
@@ -3557,13 +3605,13 @@ Show # $type->currency->essence $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #------------------------------------
-#   [2604] Omen (ritual)
+#   [2704] Omen (ritual)
 #------------------------------------
 # !! Waypoint c9.currency.omen.all : "Tierlist - Omen (Ritual)" : "Currency"
 
 Show # $type->currency->omen $tier->s !apex_stier
 	Class == "Omen"
-	BaseType == "Head of the King" "Omen of Abyssal Echoes" "Omen of Chance" "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Light" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling" "Raven-Touched Shard"
+	BaseType == "Head of the King" "Omen of Abyssal Echoes" "Omen of Chance" "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Light" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3639,7 +3687,7 @@ Show # $type->currency->omen $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2700]] Misc Map Like
+# [[2800]] Misc Map Like
 #===============================================================================================================
 # !! Waypoint c10.fragments.special : "Special Keys - Pinnacle, Logbook, Calamity, RelicKeys" : "Fragments"
 
@@ -3673,34 +3721,23 @@ Show # $type->maplike->special $tier->superkeys !fragments_a
 	PlayEffect Red
 	MinimapIcon 0 Red Hexagon
 
-Show # $type->maplike->special $tier->logbookshigh !fragments_a
-	ItemLevel >= 77
-	Class == "Expedition Logbooks"
+Show # $type->maplike->special $tier->logbookshigh !apex_stier
+	Class == "Expedition Logbook"
 	SetFontSize 45
-	SetTextColor 240 48 70 255
-	SetBorderColor 240 48 70 255
-	SetBackgroundColor 36 10 15 255
-	PlayAlertSound 1 300
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
 	PlayEffect Red
-	MinimapIcon 0 Red Hexagon
-
-Show # %H6 $type->maplike->special $tier->logbookslow !fragments_a
-	Class == "Expedition Logbooks"
-	SetFontSize 45
-	SetTextColor 240 48 70 255
-	SetBorderColor 240 48 70 255
-	SetBackgroundColor 36 10 15 255
-	PlayAlertSound 1 300
-	PlayEffect Red
-	MinimapIcon 0 Red Hexagon
+	MinimapIcon 0 Red Star
 
 #===============================================================================================================
-# [[2800]] Uniques
+# [[2900]] Uniques
 #===============================================================================================================
 # !! Waypoint c11.uniques.all : "Tierlist - Uniques - All" : "Uniques"
 
 #------------------------------------
-#   [2801] Exceptions #1
+#   [2901] Exceptions #1
 #------------------------------------
 
 Show # $type->uniques $tier->sekhemaring !uniques_a
@@ -3716,7 +3753,7 @@ Show # $type->uniques $tier->sekhemaring !uniques_a
 	MinimapIcon 0 Yellow Star
 
 #------------------------------------
-#   [2802] Tier 1 and 2 uniques
+#   [2902] Tier 1 and 2 uniques
 #------------------------------------
 # !! Waypoint c11.uniques.t1 : "Tierlist - Uniques - T1, T2" : "Uniques"
 
@@ -3743,7 +3780,7 @@ Show # %H8 $type->uniques $tier->t2 !uniques_a
 	MinimapIcon 0 Yellow Star
 
 #------------------------------------
-#   [2803] Multi-Unique bases.
+#   [2903] Multi-Unique bases.
 #------------------------------------
 
 Show # $type->uniques $tier->twicecorrupteduniques !uniques_exceptional
@@ -3826,7 +3863,7 @@ Show # $type->uniques $tier->multispecial !uniques_x
 	MinimapIcon 1 Blue Star
 
 #------------------------------------
-#   [2804] Low tier exceptions
+#   [2904] Low tier exceptions
 #------------------------------------
 # !! Waypoint c11.uniques.low : "Tierlist - Uniques - Low Tier Uniques" : "Uniques"
 
@@ -3839,6 +3876,10 @@ Show # $type->uniques $tier->multispecial !uniques_x
 #	PlayAlertSound 3 300
 #	PlayEffect Brown
 #	MinimapIcon 1 Brown Star
+
+#Show # %D5 $type->uniques $tier->recipeuniquerings
+#	Rarity Unique
+#	Class == "Rings"
 
 Show # $type->uniques $tier->corrupteduniques !uniques_b
 	AnyEnchantment True
@@ -3854,7 +3895,7 @@ Show # $type->uniques $tier->corrupteduniques !uniques_b
 	MinimapIcon 1 Brown Star
 
 #------------------------------------
-#   [2805] Tier 3 uniques 
+#   [2905] Tier 3 uniques 
 #------------------------------------
 
 Show # %D5 $type->uniques $tier->vaaltypeuniques !uniques_b
@@ -3890,7 +3931,7 @@ Show # %H5 $type->uniques $tier->t3 !uniques_b
 	MinimapIcon 1 Brown Star
 
 #------------------------------------
-#   [2806] Tier 4 uniques
+#   [2906] Tier 4 uniques
 #------------------------------------
 
 Hide # %H4 $type->uniques $tier->hideable !uniques_c
@@ -3912,7 +3953,7 @@ Show # $type->uniques $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2900]] Splinters, Tablets, Fragments
+# [[3000]] Splinters, Tablets, Fragments
 #===============================================================================================================
 # !! Waypoint c10.fragments.most : "Fragments and Splinters" : "Fragments"
 
@@ -4037,7 +4078,7 @@ Show # $type->fragments->generic $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[3000]] Misc Map Items
+# [[3100]] Misc Map Items
 #===============================================================================================================
 # !! Waypoint c10.ascendancy.all : "Trial Keys" : "Fragments"
 
@@ -4129,7 +4170,7 @@ Show # $type->miscmapitemsextra $tier->relickeyssafe !apex_stier
 	MinimapIcon 0 Red Star
 
 #===============================================================================================================
-# [[3100]] Remaining Currency
+# [[3200]] Remaining Currency
 #===============================================================================================================
 
 Show # $type->currency $tier->restex !utility_unknownitem
@@ -4143,7 +4184,7 @@ Show # $type->currency $tier->restex !utility_unknownitem
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[3200]] Leveling - Salvagable
+# [[3300]] Leveling - Salvagable
 #===============================================================================================================
 # !! Waypoint c20.leveling.salvagable.all: "Leveling - Salvagable bases" : "Leveling"
 
@@ -4246,7 +4287,7 @@ Show # %D5 $type->leveling->salvagable $tier->quality2flask !itemproperty_salvag
 #	SetBorderColor 127 127 127
 
 #===============================================================================================================
-# [[3300]] Leveling - Hide outdated leveling flasks
+# [[3400]] Leveling - Hide outdated leveling flasks
 #===============================================================================================================
 # !! Waypoint c20.leveling.flasks.hidelayer : "Leveling - All flask rules" : "Leveling"
 
@@ -4301,10 +4342,10 @@ Hide # %H0 $type->hidelayer $tier->outdatedlevelflaske
 	DisableDropSound True
 
 #===============================================================================================================
-# [[3400]] Leveling - Life Mana Flasks
+# [[3500]] Leveling - Life Mana Flasks
 #===============================================================================================================
 #------------------------------------
-#   [3401] Life flasks
+#   [3501] Life flasks
 #------------------------------------
 # !! Waypoint c20.leveling.flasks.progression : "Leveling - Flask Progression" : "Leveling"
 
@@ -4365,7 +4406,7 @@ Show # $type->leveling->flasks->life $tier->t8
 	SetBorderColor 10 14 35 255
 
 #------------------------------------
-#   [3402] Mana flasks
+#   [3502] Mana flasks
 #------------------------------------
 
 Show # $type->leveling->flasks->mana $tier->t1
@@ -4425,7 +4466,7 @@ Show # $type->leveling->flasks->mana $tier->t8
 	SetBorderColor 10 14 35 255
 
 #------------------------------------
-#   [3403] Charms
+#   [3503] Charms
 #------------------------------------
 # !! Waypoint c21.leveling.gear.all : "Leveling - Gear - All" : "Leveling"
 
@@ -4444,10 +4485,10 @@ Show # $type->leveling->flasks->mana $tier->t8
 #	SetBorderColor 10 14 35 255
 
 #===============================================================================================================
-# [[3500]] Leveling - Rules
+# [[3600]] Leveling - Rules
 #===============================================================================================================
 #------------------------------------
-#   [3501] Rares - Decorators
+#   [3601] Rares - Decorators
 #------------------------------------
 # !! Waypoint c21.leveling.decorators.all : "Leveling - Rares - Decorators" : "Leveling"
 
@@ -4481,7 +4522,7 @@ Show # $type->leveling->decorators->rare $tier->tinyrares !gear_decojewellery
 	Continue
 
 #------------------------------------
-#   [3502] Rares - Universal
+#   [3602] Rares - Universal
 #------------------------------------
 
 # !! Waypoint c21.leveling.rares.jewellery : "Leveling - Rares - Belts, Rings, Amulets" : "Leveling"
@@ -4697,7 +4738,7 @@ Show # %D6 $type->leveling->rare->universal $tier->highertier4 !exotics_btier
 #	SetBackgroundColor 20 20 0 255
 
 #------------------------------------
-#   [3503] Rares - Other
+#   [3603] Rares - Other
 #------------------------------------
 # !! Waypoint c21.leveling.rares.low : "Leveling - Gear - Low Tier" : "Leveling"
 
@@ -4720,10 +4761,10 @@ Hide # %H3 $type->leveling->rare->remaining $tier->any class == "body armours" "
 	SetBackgroundColor 20 20 0 220
 
 #===============================================================================================================
-# [[3600]] Leveling - Useful magic and normal items
+# [[3700]] Leveling - Useful magic and normal items
 #===============================================================================================================
 #------------------------------------
-#   [3601] Decorators
+#   [3701] Decorators
 #------------------------------------
 # !! Waypoint c21.leveling.magicvendor.all : "Leveling - Normal and Magic - Magic Vendor Items" : "Leveling"
 
@@ -4766,7 +4807,7 @@ Show # $type->decorators->leveling->magic $tier->tiny !utility_highlight3
 	Continue
 
 #------------------------------------
-#   [3602] Purpose Picked Items
+#   [3702] Purpose Picked Items
 #------------------------------------
 
 # !! Waypoint c21.leveling.normalmagic : "Leveling - Remarkable Normal and Magic Gear" : "Leveling"
@@ -4785,7 +4826,7 @@ Show # %D5 $type->leveling->normalmagicremarkable $tier->earlyboots !gear_highli
 	SetBackgroundColor 10 0 40
 
 #------------------------------------
-#   [3603] Conditional Rules
+#   [3703] Conditional Rules
 #------------------------------------
 # !! Waypoint c21.leveling.firstlevels.all : "Leveling - Normal and Magic - First Levels" : "Leveling"
 
@@ -5032,7 +5073,7 @@ Show # %D5 $type->leveling->firstlevelsnormal $tier->any !gear_unstyled
 
 # !! Waypoint c22.hide.all : "HIDELAYER - Hide all known untiered items" : "Technical"
 #------------------------------------
-#   [3604] Hide All known Section
+#   [3704] Hide All known Section
 #------------------------------------
 
 #Show # %D0 $type->lowstrictnessshowlayer $tier->anyfinal
@@ -5050,7 +5091,7 @@ Hide # $type->hidelayer $tier->final
 	DisableDropSound True
 
 #------------------------------------
-#   [3605] Show All unknown Section
+#   [3705] Show All unknown Section
 #------------------------------------
 # !! Waypoint c22.show.all : "SAFETYLAYER - Show all unknown items" : "Technical"
 # THIS ENTRY IS CAUGHT IN 3 CASES:
