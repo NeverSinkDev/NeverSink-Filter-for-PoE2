@@ -1,9 +1,11 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - The filter now highlights expensive ItemLevel 79+ and 82+ basetypes. These are economy based and are based on some local automations I'm running. This is an experimental feature. These will receive updates more or less daily. Feedback highly appreciated.
-  - Further improved the tiering of all the new basetypes and items added
-  - Fixed logbook appearance
+  - Improved the tiering of several Expedition drops, such as Aldur's Saga now being S-Tier. This also affects stable.
+  - Added rule to highlight all unique rings (for loreweave)
+  - Increased strictness on verisium and decreased it's highlight
+  - Slightly adjusted the highlight of the newly introduced eco-basetype highlights
+  - Minor adjustments all around
   
   ------
 

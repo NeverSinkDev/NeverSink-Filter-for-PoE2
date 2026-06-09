@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.10.2
+# VERSION:  0.10.2a
 # TYPE:     2-SEMI-STRICT
 # STYLE:    ZEN
 # AUTHOR:   NeverSink
@@ -452,7 +452,7 @@ Show # %D7 $type->chancing $tier->chancea !itemproperty_achancing
 	Mirrored False
 	Corrupted False
 	Rarity Normal
-	BaseType == "Heavy Belt"
+	BaseType == "Heavy Belt" "Utility Belt"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -465,7 +465,7 @@ Show # %D2 $type->chancing $tier->chanceany !itemproperty_bchancing
 	Mirrored False
 	Corrupted False
 	Rarity Normal
-	BaseType == "Silver Charm" "Utility Belt"
+	BaseType == "Silver Charm"
 	SetFontSize 32
 	SetBorderColor 0 200 95
 	PlayAlertSound 3 300
@@ -864,7 +864,7 @@ Show # %D9 $type->endgame->normalcraft->economy $tier->group1t1 !itemproperty_ae
 	Rarity Normal
 	BaseType == "Ancestral Tiara" "Daggerfoot Shoes" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Sekhema Sandals" "Sinister Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Solar Amulet" "Striking Quarterstaff" "Vile Robe" "Warmonger Bow"
 	SetFontSize 45
-	SetTextColor 255 127 127 255
+	SetTextColor 255 255 255 255
 	SetBorderColor 255 127 127 255
 	SetBackgroundColor 65 0 0
 	PlayAlertSound 1 300
@@ -879,8 +879,9 @@ Show # %D7 $type->endgame->normalcraft->economy $tier->group1t2 !itemproperty_be
 	BaseType == "Akoyan Spear" "Amethyst Ring" "Desolate Crossbow" "Drakeskin Boots" "Dreaming Quarterstaff" "Flying Spear" "Kamasan Tiara" "Luxurious Slippers" "Opulent Gloves" "Quickslip Shoes" "Razor Quarterstaff" "Ruby Ring" "Sandsworn Sandals" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sorcerous Tiara" "Tasalian Focus" "Unset Ring" "Vaal Gloves" "Vaal Wraps"
 	SetFontSize 32
 	SetBorderColor 255 127 127
+	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 300
-	PlayEffect Yellow Temp
+	PlayEffect Yellow
 	MinimapIcon 1 Yellow Diamond
 
 Show # %D6 $type->endgame->normalcraft->economy $tier->group2t2 !itemproperty_becocraft
@@ -891,8 +892,9 @@ Show # %D6 $type->endgame->normalcraft->economy $tier->group2t2 !itemproperty_be
 	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Utility Belt"
 	SetFontSize 32
 	SetBorderColor 255 127 127
+	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 300
-	PlayEffect Yellow Temp
+	PlayEffect Yellow
 	MinimapIcon 1 Yellow Diamond
 
 #===============================================================================================================
@@ -2164,7 +2166,7 @@ Hide # $type->hidelayer $tier->raresendgame
 #===============================================================================================================
 
 Show # $type->xenotiering $tier->s !apex_stier
-	BaseType == "Carved Cunning" "Carved Majesty" "Celestial Alloy" "Emergent Possibility" "Olroth's Crest of the Sun" "Thaumaturgic Flux (Level 20)" "The Runebinder's Alloy" "Transcendent Alloy" "Warding Starlit Ore"
+	BaseType == "Aldur's Saga" "Carved Cunning" "Carved Majesty" "Celestial Alloy" "Emergent Possibility" "Olroth's Crest of the Sun" "Olroth's Saga" "Perfect Flux" "Thaumaturgic Flux (Level 20)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Uhtred's Saga"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2174,7 +2176,7 @@ Show # $type->xenotiering $tier->s !apex_stier
 	MinimapIcon 0 Red Star
 
 Show # %H8 $type->xenotiering $tier->a !xeno_a
-	BaseType == "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Protection" "Emergent Vigour" "Masterwork Rune" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Revered Starlit Ore" "Shattered Triskelion" "Thaumaturgic Flux (Level 19)" "The Runefather's Alloy" "Veridical Starlit Ore" "Void Flux"
+	BaseType == "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Protection" "Emergent Vigour" "Masterwork Rune" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Shattered Triskelion" "Sovereign Alloy" "Veridical Starlit Ore" "Void Flux" "Vorana's Saga" "Warding Starlit Ore"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2184,7 +2186,7 @@ Show # %H8 $type->xenotiering $tier->a !xeno_a
 	MinimapIcon 0 Red UpsideDownHouse
 
 Show # %H7 $type->xenotiering $tier->b !xeno_b
-	BaseType == "Blazing Flux" "Chilling Flux" "Crackling Flux" "Sovereign Alloy" "Starlit Ore" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore"
+	BaseType == "Blazing Flux" "Chilling Flux" "Crackling Flux" "Medved's Saga" "Prismatic Alloy" "Protective Alloy" "Starlit Ore" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2194,7 +2196,7 @@ Show # %H7 $type->xenotiering $tier->b !xeno_b
 	MinimapIcon 1 Yellow UpsideDownHouse
 
 Show # %H6 $type->xenotiering $tier->c !xeno_c
-	BaseType == "Adaptive Alloy" "Banded Wombgift" "Cyclonic Alloy" "Exceptional Verisium" "Lavish Wombgift" "Mystic Alloy" "Ornate Wombgift" "Prismatic Alloy" "Protective Alloy" "Signet Wombgift" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "Vorana's Crest of the Scythe"
+	BaseType == "Adaptive Alloy" "Banded Wombgift" "Cyclonic Alloy" "Exceptional Verisium" "Lavish Wombgift" "Mystic Alloy" "Ornate Wombgift" "Revered Starlit Ore" "Signet Wombgift" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2204,7 +2206,7 @@ Show # %H6 $type->xenotiering $tier->c !xeno_c
 	MinimapIcon 1 White UpsideDownHouse
 
 Show # %H6 $type->xenotiering $tier->d !xeno_d
-	BaseType == "Animus Exchange" "Animus Splinters" "Bitter Dead" "Concussive Runes" "Conductive Runes" "Detonate Living" "Eternal March" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Leylines" "Medved's Crest of the Circle" "Powered by Verisium" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Skyfall" "Triskelion Cascade" "Verisium Manifestations" "Voltaic Barrier" "Wardbound Minions"
+	BaseType == "Animus Exchange" "Animus Splinters" "Bitter Dead" "Concussive Runes" "Conductive Runes" "Detonate Living" "Eternal March" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Leylines" "Medved's Crest of the Circle" "Powered by Verisium" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Skyfall" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 18)" "Triskelion Cascade" "Verisium Manifestations" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Wardbound Minions"
 	SetFontSize 32
 	SetTextColor 160 75 205 255
 	SetBorderColor 160 75 205 255
@@ -2219,7 +2221,7 @@ Show # %H6 $type->xenotiering $tier->d !xeno_d
 #	MinimapIcon 2 Grey UpsideDownHouse
 
 Hide # $type->xenotiering $tier->exhide !utility_minimize
-	BaseType == "Adaptive Alloy" "Animus Exchange" "Animus Splinters" "Banded Wombgift" "Bitter Dead" "Blazing Flux" "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Celestial Alloy" "Chilling Flux" "Concussive Runes" "Conductive Runes" "Crackling Flux" "Cryptic Key" "Cyclonic Alloy" "Detonate Living" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Eternal March" "Exceptional Verisium" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Lavish Wombgift" "Leylines" "Masterwork Rune" "Medved's Crest of the Circle" "Mystic Alloy" "Olroth's Crest of the Sun" "Ornate Wombgift" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Powered by Verisium" "Prismatic Alloy" "Protective Alloy" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Revelatory Wombgift" "Revered Starlit Ore" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Shattered Triskelion" "Signet Wombgift" "Skyfall" "Sovereign Alloy" "Starlit Ore" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 20)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Triskelion Cascade" "Uhtred's Crest of the Chalice" "Venerable Starlit Ore" "Veridical Starlit Ore" "Verisium Manifestations" "Void Flux" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Wardbound Minions" "Warding Starlit Ore"
+	BaseType == "Adaptive Alloy" "Aldur's Saga" "Animus Exchange" "Animus Splinters" "Banded Wombgift" "Bitter Dead" "Blazing Flux" "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Celestial Alloy" "Chilling Flux" "Concussive Runes" "Conductive Runes" "Crackling Flux" "Cryptic Key" "Cyclonic Alloy" "Detonate Living" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Eternal March" "Exceptional Verisium" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Lavish Wombgift" "Leylines" "Masterwork Rune" "Medved's Crest of the Circle" "Medved's Saga" "Mystic Alloy" "Olroth's Crest of the Sun" "Olroth's Saga" "Ornate Wombgift" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Flux" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Powered by Verisium" "Prismatic Alloy" "Protective Alloy" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Revelatory Wombgift" "Revered Starlit Ore" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Shattered Triskelion" "Signet Wombgift" "Skyfall" "Sovereign Alloy" "Starlit Ore" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 20)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Triskelion Cascade" "Uhtred's Crest of the Chalice" "Uhtred's Saga" "Venerable Starlit Ore" "Veridical Starlit Ore" "Verisium Manifestations" "Void Flux" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Vorana's Saga" "Wardbound Minions" "Warding Starlit Ore"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -2234,19 +2236,8 @@ Show # $type->legacytemp $tier->any !xeno_a
 	PlayEffect Red
 	MinimapIcon 0 Red UpsideDownHouse
 
-Show # $type->verisium $tier->massive !xeno_a
+Show # %H8 $type->verisium $tier->massive !xeno_b
 	StackSize >= 1000
-	BaseType == "Verisium"
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 245 105 90 255
-	PlayAlertSound 1 300
-	PlayEffect Red
-	MinimapIcon 0 Red UpsideDownHouse
-
-Show # $type->verisium $tier->huge !xeno_b
-	StackSize >= 150
 	BaseType == "Verisium"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
@@ -2256,8 +2247,8 @@ Show # $type->verisium $tier->huge !xeno_b
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow UpsideDownHouse
 
-Show # $type->verisium $tier->large !xeno_c
-	StackSize >= 30
+Show # %H7 $type->verisium $tier->huge !xeno_c
+	StackSize >= 150
 	BaseType == "Verisium"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
@@ -2267,7 +2258,17 @@ Show # $type->verisium $tier->large !xeno_c
 	PlayEffect Yellow
 	MinimapIcon 1 White UpsideDownHouse
 
-Show # $type->verisium $tier->any !xeno_d
+Show # %H6 $type->verisium $tier->large !xeno_d
+	StackSize >= 30
+	BaseType == "Verisium"
+	SetFontSize 32
+	SetTextColor 160 75 205 255
+	SetBorderColor 160 75 205 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow Temp
+	MinimapIcon 2 White UpsideDownHouse
+
+Show # %H5 $type->verisium $tier->any !xeno_d
 	BaseType == "Verisium"
 	SetFontSize 32
 	SetTextColor 160 75 205 255
@@ -3871,9 +3872,15 @@ Show # $type->uniques $tier->multispecial !uniques_x
 #	PlayEffect Brown
 #	MinimapIcon 1 Brown Star
 
-#Show # %D5 $type->uniques $tier->recipeuniquerings
-#	Rarity Unique
-#	Class == "Rings"
+Show # %D5 $type->uniques $tier->loreweaverecipe !uniques_b
+	Rarity Unique
+	Class == "Rings"
+	SetFontSize 35
+	SetTextColor 188 96 37 255
+	SetBorderColor 188 96 37 255
+	PlayAlertSound 3 300
+	PlayEffect Brown
+	MinimapIcon 1 Brown Star
 
 Show # $type->uniques $tier->corrupteduniques !uniques_b
 	AnyEnchantment True

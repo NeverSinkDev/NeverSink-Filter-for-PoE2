@@ -6,11 +6,11 @@
     },
     {
       "name": "version",
-      "value": "0.10.2"
+      "value": "0.10.2a"
     },
     {
       "name": "suffix",
-      "value": "BaseType tiering update"
+      "value": "Finetuning"
     }
   ]
 }
