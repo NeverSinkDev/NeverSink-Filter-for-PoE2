@@ -7,6 +7,25 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.10.2a** - Finetuning
+----------------------------------
+
+- Improved the tiering of several Expedition drops, such as Aldur's Saga now being S-Tier. This also affects stable.
+- Added rule to highlight all unique rings (for loreweave)
+- Increased strictness on verisium and decreased it's highlight
+- Slightly adjusted the highlight of the newly introduced eco-basetype highlights
+- Minor adjustments all around
+
+----------------------------------
+# **VERSION 0.10.2** - BaseType tiering update
+----------------------------------
+
+- A lot of tiering improvements
+- The filter now highlights expensive ItemLevel 79+ and 82+ basetypes. These are economy based and are based on some local automations I'm running. This is an experimental feature. These will receive updates more or less daily. Feedback highly appreciated.
+- Further improved the tiering of all the new basetypes and items added
+- Fixed logbook appearance
+
+----------------------------------
 # **VERSION 0.10.1** - Economy Update Runes of Aldur
 ----------------------------------
 
