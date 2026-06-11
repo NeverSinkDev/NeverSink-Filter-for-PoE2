@@ -239,7 +239,7 @@ Show # %D8 $type->exoticbases $tier->pseudocrafts1 !exotics_btier
 
 Show # %D8 $type->exoticbases $tier->pseudocrafts2 !exotics_ctier
 	Rarity Normal Magic Rare
-	BaseType == "Biostatic Ring" "Corona Amulet" "Distorted Amulet" "Grasping Ring" "Kinetic Ring" "Lament Amulet" "Mnemonic Ring" "Oneiric Ring" "Portent Amulet" "Twisted Amulet" "Vitalic Ring"
+	BaseType == "Biostatic Ring" "Corona Amulet" "Distorted Amulet" "Forking Belt" "Grasping Ring" "Invoking Belt" "Kinetic Ring" "Lament Amulet" "Mnemonic Ring" "Oneiric Ring" "Portent Amulet" "Sinew Belt" "Stalking Belt" "Twisted Amulet" "Vitalic Ring"
 	SetFontSize 40
 	SetTextColor 0 240 190 255
 	CustomAlertSound "3uniques.mp3" 300
@@ -872,7 +872,7 @@ Show # %D9 $type->endgame->normalcraft->economy $tier->group1t1 !itemproperty_ae
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal
-	BaseType == "Ancestral Tiara" "Daggerfoot Shoes" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Sekhema Sandals" "Sinister Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Solar Amulet" "Striking Quarterstaff" "Vile Robe" "Warmonger Bow"
+	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Sekhema Sandals" "Sinister Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Solar Amulet" "Vile Robe" "Warmonger Bow"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 127 127 255
@@ -886,7 +886,7 @@ Show # %D7 $type->endgame->normalcraft->economy $tier->group1t2 !itemproperty_be
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal
-	BaseType == "Akoyan Spear" "Amethyst Ring" "Desolate Crossbow" "Drakeskin Boots" "Dreaming Quarterstaff" "Flying Spear" "Kamasan Tiara" "Luxurious Slippers" "Opulent Gloves" "Quickslip Shoes" "Razor Quarterstaff" "Ruby Ring" "Sandsworn Sandals" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sorcerous Tiara" "Tasalian Focus" "Unset Ring" "Vaal Gloves" "Vaal Wraps"
+	BaseType == "Amber Amulet" "Amethyst Ring" "Bolting Quarterstaff" "Corsair Coat" "Daggerfoot Shoes" "Dragonscale Boots" "Drakeskin Boots" "Dreaming Quarterstaff" "Flying Spear" "Grand Bracers" "Grinning Mask" "Lapis Amulet" "Luxurious Slippers" "Opulent Gloves" "Plate Belt" "Quickslip Shoes" "Ruby Ring" "Sacred Focus" "Sandsworn Sandals" "Sapphire Ring" "Secured Wraps" "Siege Crossbow" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Stellar Amulet" "Striking Quarterstaff" "Tasalian Focus" "Tawhoan Tower Shield" "Topaz Ring" "Unset Ring" "Vaal Gloves"
 	SetFontSize 40
 	SetBorderColor 255 127 127
 	SetBackgroundColor 20 20 0 255
@@ -899,7 +899,7 @@ Show # %D6 $type->endgame->normalcraft->economy $tier->group2t2 !itemproperty_be
 	Corrupted False
 	ItemLevel >= 79
 	Rarity Normal
-	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Utility Belt"
+	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Solar Amulet"
 	SetFontSize 40
 	SetBorderColor 255 127 127
 	SetBackgroundColor 20 20 0 255
