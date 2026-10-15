@@ -2986,7 +2986,7 @@ Show # $type->waystones $tier->corrupted8high !maps_specialb
 	HasExplicitMod >=7 "a" "o" "e" "u" "i" "y"
 	SetTextColor 0 204 255 255
 	SetBorderColor 0 204 255 255
-	PlayAlertSound 3 300
+	PlayAlertSound 5 300
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Pentagon
 
@@ -2996,7 +2996,7 @@ Show # $type->waystones $tier->enchanted1 !maps_specialb
 	Class == "Waystones"
 	SetTextColor 0 204 255 255
 	SetBorderColor 0 204 255 255
-	PlayAlertSound 3 300
+	PlayAlertSound 5 300
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Pentagon
 
@@ -3039,7 +3039,7 @@ Show # $type->waystones $tier->waystone_t16 !maps_specialb
 	Class == "Waystones"
 	SetTextColor 0 204 255 255
 	SetBorderColor 0 204 255 255
-	PlayAlertSound 3 300
+	PlayAlertSound 5 300
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Pentagon
 
@@ -3049,7 +3049,7 @@ Show # $type->waystones $tier->waystone_t15 !maps_regularhighest
 	SetFontSize 45
 	SetTextColor 230 84 128 255
 	SetBorderColor 230 84 128 255
-	PlayAlertSound 4 300
+	PlayAlertSound 5 300
 	PlayEffect Pink
 	MinimapIcon 1 Pink Square
 
@@ -3934,7 +3934,7 @@ Show # $type->fragments->generic $tier->s !apex_stier
 	MinimapIcon 0 Red Star
 
 Show # $type->fragments->generic $tier->a !fragments_a
-	BaseType == "An Audience with the King" "Breachstone" "Call of the Shadows" "Cowardly Fate" "Deadly Fate" "Head of the King" "Idol of Estazunti" "Kulemak's Invitation" "Raven's Reflection" "Sacred Bloom" "The Triskelion Reforged" "Victorious Fate"
+	BaseType == "An Audience with the King" "Breachstone" "Call of the Shadows" "Cowardly Fate" "Deadly Fate" "Head of the King" "Idol of Estazunti" "Kulemak's Invitation" "Raven's Reflection" "The Triskelion Reforged" "Victorious Fate"
 	SetFontSize 45
 	SetTextColor 255 128 0 255
 	SetBorderColor 255 128 0 255
@@ -3943,7 +3943,7 @@ Show # $type->fragments->generic $tier->a !fragments_a
 	MinimapIcon 0 Orange Circle
 
 Show # $type->fragments->generic $tier->b !fragments_b
-	BaseType == "Expedition Tablet" "Ritual Tablet"
+	BaseType == "Expedition Tablet" "Ritual Tablet" "Sacred Bloom"
 	SetFontSize 45
 	SetTextColor 163 53 238 255
 	SetBorderColor 163 53 238 255
@@ -3973,7 +3973,7 @@ Show # $type->fragments->generic $tier->c !fragments_c
 #	SetTextColor 30 235 0 255
 
 Hide # $type->fragments->generic $tier->exhide !utility_minimize
-	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Expedition Tablet" "Irradiated Tablet" "Overseer Tablet" "Ritual Tablet" "Temple Tablet"
+	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Expedition Tablet" "Irradiated Tablet" "Overseer Tablet" "Ritual Tablet" "Sacred Bloom" "Temple Tablet"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 

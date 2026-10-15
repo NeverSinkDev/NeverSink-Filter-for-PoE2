@@ -3978,7 +3978,7 @@ Show # $type->fragments->generic $tier->s !apex_stier
 	MinimapIcon 0 Red Star
 
 Show # $type->fragments->generic $tier->a !fragments_a
-	BaseType == "An Audience with the King" "Breachstone" "Call of the Shadows" "Cowardly Fate" "Deadly Fate" "Head of the King" "Idol of Estazunti" "Kulemak's Invitation" "Raven's Reflection" "Sacred Bloom" "The Triskelion Reforged" "Victorious Fate"
+	BaseType == "An Audience with the King" "Breachstone" "Call of the Shadows" "Cowardly Fate" "Deadly Fate" "Head of the King" "Idol of Estazunti" "Kulemak's Invitation" "Raven's Reflection" "The Triskelion Reforged" "Victorious Fate"
 	SetFontSize 45
 	SetTextColor 245 105 90 255
 	SetBorderColor 245 105 90 255
@@ -3988,7 +3988,7 @@ Show # $type->fragments->generic $tier->a !fragments_a
 	MinimapIcon 0 Red Hexagon
 
 Show # $type->fragments->generic $tier->b !fragments_b
-	BaseType == "Expedition Tablet" "Ritual Tablet"
+	BaseType == "Expedition Tablet" "Ritual Tablet" "Sacred Bloom"
 	SetFontSize 35
 	SetTextColor 180 75 235 255
 	SetBorderColor 180 75 235 255
@@ -4018,7 +4018,7 @@ Show # $type->fragments->generic $tier->c !fragments_c
 #	MinimapIcon 2 Grey Hexagon
 
 Hide # $type->fragments->generic $tier->exhide !utility_minimize
-	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Expedition Tablet" "Irradiated Tablet" "Overseer Tablet" "Ritual Tablet" "Temple Tablet"
+	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Expedition Tablet" "Irradiated Tablet" "Overseer Tablet" "Ritual Tablet" "Sacred Bloom" "Temple Tablet"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 

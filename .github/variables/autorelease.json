@@ -6,11 +6,11 @@
     },
     {
       "name": "version",
-      "value": "0.10.4"
+      "value": "0.10.4a"
     },
     {
       "name": "suffix",
-      "value": "Event Support"
+      "value": "Clean up and preparations"
     }
   ]
 }

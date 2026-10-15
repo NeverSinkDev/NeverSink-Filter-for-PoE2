@@ -7,6 +7,18 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.10.4a** - Clean up and preparations
+----------------------------------
+
+This update focuses on finetuning the filter for the upcoming leagues and preparing for some long-term goals.
+
+# CHANGES:
+
+- Minor style improvements
+- Established better systems to prevent tierlist duplications
+- Architecture changes (most of these should not be noticeable to the user yet)
+
+----------------------------------
 # **VERSION 0.10.4** - Event Support
 ----------------------------------
 
